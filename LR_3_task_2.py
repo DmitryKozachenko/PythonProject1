@@ -4,7 +4,7 @@ from sklearn import linear_model
 import sklearn.metrics as sm
 import matplotlib.pyplot as plt
 
-# Завдання 2.1: Завантаження даних
+# Завантаження даних
 input_file = 'data_regr_5.txt'
 data = np.loadtxt(input_file, delimiter=',')
 X, y = data[:, :-1], data[:, -1]
